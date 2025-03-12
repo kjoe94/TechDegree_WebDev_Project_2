@@ -1,0 +1,17 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile_pic {
+    width: 75%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
