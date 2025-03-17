@@ -11,31 +11,41 @@ body {
 header {
     padding: .75rem;
     background-color: #f2f2f284;
+    margin-bottom: 2rem;
 }
 
-main {
+main,
+footer {
     width: 95%;
     margin: 0 auto;
 }
 
-.container {
+.main-container,
+.nav-container,
+.header-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.nav-container {
+.footer-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container p ,
+.item-4,
+.contact-info {
+    padding: .25rem;
+}
+
+.contact-info,
+.footer-container{
+    background-color: #f2f2f284;
 }
 
 .profile_pic {
     width: 75%;
-}
-
-
-img, nav {
-    width: 100%;
+    margin-top: 2rem;
 }
 
 ul {
@@ -47,9 +57,20 @@ li {
     background-color: white;
     padding: 0.5rem;
     margin-bottom: 4px;
-    font-weight: bold;
+    font-weight: 500;
 }
 nav {
     text-align: center;
 }
 
+h2 {
+    font-size: 16px;
+}
+
+
+/* 320p TASKS */
+/*  1) REPLICATE BOTTOM FOOTER BACKGROUND COLOR...
+    2) CHECK SPACE BETWEEN ITEMS
+    3) MATCH FONT COLORS
+    4) ADD BOTTOM BORDER BETWEEN "contact-info" and "footer"
+    5) Space out contact info and add font weight*/
