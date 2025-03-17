@@ -8,37 +8,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    padding: .75rem;
-    background-color: #f2f2f284;
+.main-header-container {
     margin-bottom: 2rem;
+    align-items: center;
 }
 
-main,
-footer {
+.main-header-container,
+.footer-container {
+    padding: .75rem;
+    background-color: #f2f2f284;
+    }
+
+main {
     width: 95%;
     margin: 0 auto;
 }
 
 .main-container,
 .nav-container,
-.header-container {
+.header-container,
+.footer-container {
     display: flex;
     flex-direction: column;
 }
 
 .footer-container {
-    display: flex;
     justify-content: space-between;
 }
 
-.main-container p ,
+.main-container,
 .item-4,
 .contact-info {
     padding: .25rem;
 }
 
-.contact-info,
 .footer-container{
     background-color: #f2f2f284;
 }
@@ -46,6 +49,17 @@ footer {
 .profile_pic {
     width: 75%;
     margin-top: 2rem;
+}
+
+.name-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    line-height: 1.5;
+    margin-top: 0;
+    padding: .5rem;
 }
 
 ul {
@@ -56,7 +70,7 @@ ul {
 li {
     background-color: white;
     padding: 0.5rem;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     font-weight: 500;
 }
 nav {
@@ -65,12 +79,17 @@ nav {
 
 h2 {
     font-size: 16px;
+    margin: 2rem 0 0.5rem;
 }
 
 
 /* 320p TASKS */
-/*  1) REPLICATE BOTTOM FOOTER BACKGROUND COLOR...
-    2) CHECK SPACE BETWEEN ITEMS
+/*  2) CHECK SPACE BETWEEN ITEMS (img under "portfolio"; and footer is all thats left)
     3) MATCH FONT COLORS
     4) ADD BOTTOM BORDER BETWEEN "contact-info" and "footer"
-    5) Space out contact info and add font weight*/
+    5) Space out contact info and add font weight
+    6) Match font w/google font
+    7) Remove underline from links
+    
+    
+    */
