@@ -1,0 +1,2 @@
+difference between "min-width" and "max-width" media queries.
+make sure to add "Nav" tags
