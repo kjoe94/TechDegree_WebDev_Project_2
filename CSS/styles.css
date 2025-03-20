@@ -146,7 +146,42 @@ h3 {
   Media Queries
 ==================================== */
 
+@media screen and (min-width: 768px) {
+    .nav-container {
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    li {
+        background: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #bio {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .profile_pic {
+        margin: 0 1rem 0 0;
+        width: 37%;
+    }
+
+    .item-4 {
+        text-align: left;
+        margin: 0px 2rem;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .main-header-container {
+        padding-bottom: 4rem;
+    }
+
+
+        
+}
 
 
 
