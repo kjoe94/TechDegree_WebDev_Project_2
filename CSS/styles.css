@@ -161,6 +161,7 @@ h3 {
     #bio {
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 2rem;
     }
 
     .profile_pic {
@@ -177,6 +178,15 @@ h3 {
 
     .main-header-container {
         padding-bottom: 4rem;
+    }
+
+    .main-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mc-flex {
+        flex: 1 350px;
     }
 
 
