@@ -181,12 +181,12 @@ h3 {
     }
 
     .main-container {
-        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .mc-flex {
-        flex: 1 350px;
+        border: 1px black solid;
+        
     }
 
 
