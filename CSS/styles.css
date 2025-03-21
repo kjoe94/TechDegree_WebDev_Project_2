@@ -97,15 +97,13 @@ h3 {
     justify-content: space-between;
 }
 
-.main-container,
+
 .item-4,
 .contact-info {
     padding: .25rem;
 }
 
-.main-container {
-    margin-bottom: 2rem;
-}
+
 
 .footer-container{
     background-color: #f2f2f284;
@@ -178,10 +176,6 @@ h3 {
 
     .main-header-container {
         padding-bottom: 4rem;
-    }
-
-    .main-container {
-        flex-wrap: wrap;
     }
 
     .mc-flex {
