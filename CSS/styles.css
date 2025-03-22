@@ -179,9 +179,21 @@ main p {
     }
 
     #bio {
-        display: flex;
         flex-direction: row-reverse;
         margin-top: 2rem;
+    }
+
+    .main-container,
+    #bio {
+        display: flex;
+    }
+
+    .main-container {
+        flex-wrap: wrap;
+        /* border: 2px red dotted; */
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .profile_pic {
@@ -201,8 +213,24 @@ main p {
     }
 
     .mc-flex {
-        border: 1px black solid;
+        /* border: 1px black solid; */
+        flex: 0 335px;
         
+    }
+
+    .marketing-pic {
+        margin-top: 0;
+    }
+    
+    .contact-info {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    h3,
+    .contact,
+    .contact-info p {
+        font-size: 1.1rem;
     }
 
 
