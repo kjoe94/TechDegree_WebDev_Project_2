@@ -1,5 +1,8 @@
-@320px:
-- fix margins / spacing 
+@768
+- Footer
+    - fix flex: Nav on right
+    - chage link colors
+
 
 PASS
 - make sure to add "Nav" tags
