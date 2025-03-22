@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -55,8 +55,8 @@ h2 {
 }
 
 h3 {
-    font-size: 0.8rem;
-    margin-top: 2.5rem;
+    font-size: 1rem;
+    margin-top: 4rem;
 }
 
 /* ================================= 
@@ -71,7 +71,7 @@ h3 {
     margin-top: 3rem;
     border-top: 1px rgb(225, 222, 222) solid;
     padding-top: 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 900;
 }
 
@@ -84,7 +84,7 @@ h3 {
 
 .main-header-container,
 .footer-container {
-    padding: .75rem .75rem 1rem .75rem;
+    padding: 0 .75rem 1rem .75rem;
     background-color: #f2f2f284;
 }
 
@@ -113,6 +113,19 @@ h3 {
 
 /* ---- Page Elements ---- */
 
+
+main p {
+    margin-bottom: 2.3rem;
+}
+
+.gallery {
+    padding: 0;
+    font-size: 0.95rem;
+}
+.portfolio {
+    margin-top: 3rem;
+    font-weight: 900;
+}
 .contact-info p {
     margin-bottom: 0;
 }
@@ -138,6 +151,14 @@ h3 {
     color: rgb(70, 69, 69);
     font-size: 0.8rem;
     font-weight: 900;
+}
+
+.contact,
+.search,
+.map {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: .98rem;
 }
 
 
@@ -172,7 +193,7 @@ h3 {
         text-align: left;
         margin: 0px 2rem;
         padding: 0;
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     .main-header-container {
