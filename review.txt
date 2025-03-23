@@ -1,11 +1,17 @@
-@768
-- Footer
-    - fix flex: Nav on right
-    - chage link colors
+@1024
+- Select .header-container 
+    - change "flex-direction: column" to "row"
+    - add space between
+    - adjust sizes, spacing, padding, margin
+- Select .item-4
+    - adjust left & right margin to allow text to match mockup
+- Adjust sizes of flexboxes in main so that only 3 fit on each line
+- Adjust text under "CONTACT" to match mockup
+
 
 
 PASS
-- make sure to add "Nav" tags
+- 
 
 EXCEEDS
 - 
