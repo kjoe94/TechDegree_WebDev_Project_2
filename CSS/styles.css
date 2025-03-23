@@ -262,9 +262,35 @@ main p {
     .portfolio {
         margin-bottom: 3rem;
     }
-
         
 }
+
+
+
+@media screen and (min-width: 1024px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 3rem;
+    }
+
+    h1 {
+        margin: 1rem 0 1rem 4rem;
+    }
+
+    .item-4 {
+        margin: 0 3rem 0 4rem;
+        font-size: 1.2rem;
+    }
+
+    body {
+        background-color: #f2f2f284;
+    }
+
+
+}
+
+
 
 
 
