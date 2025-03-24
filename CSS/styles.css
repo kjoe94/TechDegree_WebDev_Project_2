@@ -89,7 +89,7 @@ h3 {
 .main-header-container,
 .footer-container {
     padding: 0 .75rem 1rem .75rem;
-    background-color: #f2f2f284;
+    background-color: #f8f8f8;
 }
 
 .nav-container,
@@ -112,7 +112,7 @@ h3 {
 
 
 .footer-container{
-    background-color: #f2f2f284;
+    background-color: #f8f8f8;
 }
 
 /* ---- Page Elements ---- */
@@ -284,7 +284,16 @@ main p {
     }
 
     body {
-        background-color: #f2f2f284;
+        background-color: #f8f8f8;
+    }
+
+    main {
+        background-color: white;
+        width: 93%;
+    }
+
+    .main-container {
+        padding: 0 2rem;
     }
 
 
