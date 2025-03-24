@@ -1,10 +1,11 @@
-@1024
-- Adjust text under "CONTACT" to match mockup
-
-
-
 PASS
 - 
 
 EXCEEDS
-- 
+- create a new section (Skills)
+    - make sure to make it responsive
+    - give each (320,768,1024) its own style
+- New background color for top nav, bottom nav strip and sections 
+    - make top strip and bottom strip same color
+        - change color of text
+- Add <nav> to all nav bars

@@ -170,6 +170,9 @@ main p {
   Media Queries
 ==================================== */
 
+/* ---- 768px Tablet ---- */
+
+
 @media screen and (min-width: 768px) {
     .nav-container {
         flex-direction: row;
@@ -212,7 +215,6 @@ main p {
 
     .main-container {
         flex-wrap: wrap;
-        /* border: 2px red dotted; */
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
@@ -235,7 +237,6 @@ main p {
     }
 
     .mc-flex {
-        /* border: 1px black solid; */
         flex: 0 335px;
         
     }
@@ -265,6 +266,7 @@ main p {
         
 }
 
+/* ---- 1024px Desktop ---- */
 
 
 @media screen and (min-width: 1024px) {
