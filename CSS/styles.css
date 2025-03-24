@@ -294,6 +294,16 @@ main p {
 
     .main-container {
         padding: 0 2rem;
+        justify-content: flex-start;
+    }
+
+    .mc-flex-2,
+    .mc-flex-5 {
+        margin: 0 1rem;
+    }
+
+    .mc-flex {
+        flex: 0 32%;
     }
 
 
