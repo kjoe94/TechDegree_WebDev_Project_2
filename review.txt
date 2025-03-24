@@ -1,5 +1,4 @@
 @1024
-- Adjust sizes of flexboxes in main so that only 3 fit on each line
 - Adjust text under "CONTACT" to match mockup
 
 

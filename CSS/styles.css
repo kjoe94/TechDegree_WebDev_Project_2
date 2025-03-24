@@ -306,6 +306,15 @@ main p {
         flex: 0 32%;
     }
 
+    .portfolio {
+        padding-top: 4rem;
+    }
+
+    .contact-info {
+        padding-left: 14.5rem;
+        padding-right: 14.5rem;
+    }
+
 
 }
 
