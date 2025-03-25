@@ -140,6 +140,7 @@ h3 {
 
 .sec-skills {
     background-color: #444444;
+    box-shadow: 0 3px 10px gray;;
 }
 
 /* ---- Page Elements ---- */
@@ -222,8 +223,17 @@ main p {
         justify-content: center;
     }
 
+    .nav-container li a {
+        color: beige;
+    }
+
+    .student-name {
+        padding-left: 5rem;
+    }
+
     .nav-bottom {
         display: contents;
+        padding-right: 1.5rem;
     }
 
     .top {
@@ -253,7 +263,7 @@ main p {
     }
 
     .nav-bottom li a {
-        color: black;
+        color: beige;
     }
 
     .main-container {
@@ -326,6 +336,9 @@ main p {
         padding-top: 3rem;
     }
 
+    .nav-container {
+        padding-right: 2rem;
+    }
     h1 {
         margin: 1rem 0 1rem 4rem;
     }
