@@ -1,8 +1,0 @@
-PASS
-- 
-
-EXCEEDS
-- Get rid of the horizontal scroll
-    - ***ASK SLACK FOR HELP***
-- correct positioning
-- Validate HTML/CSS

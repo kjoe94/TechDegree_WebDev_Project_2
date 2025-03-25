@@ -71,7 +71,7 @@ h3 {
 /* ---- Navigation ---- */
 
 .student-name {
-    padding-left: 1.5rem;
+    padding-left: 1.25rem;
 }
 
 .name-nav {
@@ -214,6 +214,9 @@ main p {
     color: beige;
 }
 
+.top {
+    padding-left: 2.5rem;
+}
 
 /* ================================= 
   Media Queries
@@ -232,13 +235,17 @@ main p {
         color: beige;
     }
 
+    .name-nav {
+        padding-bottom: 3rem;
+    }
+
     .student-name {
-        padding-left: 5rem;
+        padding-left: 1.5rem;
     }
 
     .nav-bottom {
         display: contents;
-        padding-right: 1.5rem;
+        padding-right: 1rem;
     }
 
     .top {
@@ -247,8 +254,8 @@ main p {
 
     li {
         background: none;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     #bio {
@@ -344,6 +351,9 @@ main p {
         margin: 1rem 0 1rem 4rem;
     }
 
+    .name-nav {
+        padding-bottom: 0.5rem;
+    }
     .item-4 {
         margin: 0 3rem 0 4rem;
         font-size: 1.2rem;
