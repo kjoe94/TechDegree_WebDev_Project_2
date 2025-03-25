@@ -2,16 +2,16 @@ PASS
 - 
 
 EXCEEDS
-- create a new section (Skills)
-    - - Add credit to "skils" pics (credit info in "info" section of pic file)
-    - give each (320,768,1024) its own style
-        @768px:
-        - make "skills" section have a column layout
-- New background color for top nav, bottom nav strip and sections 
+- New background color for top nav, bottom nav strip
     - make top strip and bottom strip same color
         - change color of text
 
 - Add <nav> to all nav bars
+- Links
+    - Make them look like Links
+        - underline when hover
+        - Change colors
+        - Change cursor
 - Check Pass/Exceeds grading scale
 - Validate HTML/CSS
 

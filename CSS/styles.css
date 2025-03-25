@@ -68,11 +68,13 @@ h3 {
 .name-nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin: 3rem -5% 0;
     border-top: 1px rgb(225, 222, 222) solid;
     padding-top: 1rem;
     font-size: 1rem;
     font-weight: 900;
+    background-color: lightslategray;
+
 }
 
 .nav-bottom {
@@ -99,8 +101,14 @@ h3 {
     flex-direction: column;
 }
 
+.header-container {
+    margin: 0 -5%;
+    background-color: lightslategray;
+}
+
 .footer-container {
     justify-content: space-between;
+    padding-bottom: 0;
 }
 
 
@@ -109,10 +117,12 @@ h3 {
     padding: .25rem;
 }
 
-
-
-.footer-container{
+.footer-container {
     background-color: #f8f8f8;
+}
+
+.sec-skills {
+    background-color: #444444;
 }
 
 /* ---- Page Elements ---- */
@@ -121,7 +131,7 @@ h3 {
 main p {
     margin-bottom: 2.3rem;
 }
-
+ 
 .gallery {
     padding: 0;
     font-size: 0.95rem;
@@ -131,7 +141,22 @@ main p {
     margin-top: 3rem;
     font-weight: 900;
 }
+
+.skills-h2 {
+    padding-top: 3rem;
+}
+
+.p-skills {
+    padding: 1rem;
+}
+.wt-skills {
+    color: white;
+}
 .contact-info p {
+    margin-bottom: 0;
+}
+
+.js-skills {
     margin-bottom: 0;
 }
 
@@ -259,14 +284,19 @@ main p {
         font-size: 1.1rem;
     }
 
-    .footer-container {
+    /* .footer-container {
         padding-bottom: 2.5rem;
-    }
+    } */
 
     .portfolio,
     .skills-h2 {
         margin-bottom: 3rem;
     }
+
+    .mc-skills {
+        flex: 0 33%;
+    }
+
         
 }
 
