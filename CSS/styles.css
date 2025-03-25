@@ -77,7 +77,8 @@ h3 {
 .name-nav {
     display: flex;
     justify-content: space-between;
-    margin: 3rem -5% 0;
+    /* NEGATIVE MARGIN */
+    /* margin: 3rem -5% 0; */
     border-top: 1px rgb(225, 222, 222) solid;
     padding-top: 1rem;
     font-size: 1rem;
@@ -116,7 +117,8 @@ h3 {
 }
 
 .header-container {
-    margin: 0 -5%;
+    /* NEGATIVE MARGIN */
+    /* margin: 0 -5%; */
     background-color: lightslategray;
 }
 

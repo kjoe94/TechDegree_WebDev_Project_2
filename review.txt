@@ -2,5 +2,9 @@ PASS
 - 
 
 EXCEEDS
-- remove negative margins
+- fix header/footer bars
+    - make body width: 100% 
+    - set all boxes on body to 90%
+- Get rid of the horizontal scroll
+    - try to replace any left/right margin "positionings" with padding or another solution
 - Validate HTML/CSS
