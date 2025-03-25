@@ -2,11 +2,6 @@ PASS
 - 
 
 EXCEEDS
-- New background color for top nav, bottom nav strip
-    - make top strip and bottom strip same color
-        - change color of text
-
-- Add <nav> to all nav bars
 - Links
     - Make them look like Links
         - underline when hover
@@ -14,11 +9,3 @@ EXCEEDS
         - Change cursor
 - Check Pass/Exceeds grading scale
 - Validate HTML/CSS
-
-ADD TO SKILLS SECTION:
-
-HTML is the backbone of every web page I create, giving structure and meaning to content. It’s how I organize text, images, and elements so they make sense to both users and search engines. Without HTML, a website is just an empty canvas.
-
-CSS is where my creativity shines, transforming plain structures into visually appealing designs. It allows me to control colors, layouts, spacing, and animations to create an engaging user experience. With CSS, I can turn a basic webpage into something truly eye-catching and unique.
-
-JavaScript brings my websites to life by adding interactivity and dynamic features. Whether it’s handling user input, creating animations, or fetching data in real time, JavaScript makes web pages more engaging and functional. It’s the key to making my projects feel responsive and intuitive.
