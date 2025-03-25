@@ -2,10 +2,7 @@ PASS
 - 
 
 EXCEEDS
-- Links
-    - Make them look like Links
-        - underline when hover
-        - Change colors
-        - Change cursor
+- Replace class "link" with "ID" 
+- Add "SKILLS" to Nav bars
 - Check Pass/Exceeds grading scale
 - Validate HTML/CSS
