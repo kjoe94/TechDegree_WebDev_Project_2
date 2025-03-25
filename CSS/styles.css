@@ -126,7 +126,8 @@ main p {
     padding: 0;
     font-size: 0.95rem;
 }
-.portfolio {
+.portfolio,
+.skills-h2 {
     margin-top: 3rem;
     font-weight: 900;
 }
@@ -139,7 +140,8 @@ main p {
     margin: 2rem 0 1rem 0;
 }
 
-.marketing-pic {
+.marketing-pic,
+.html-pic {
     margin-top: 2.5rem;
 }
 
@@ -241,7 +243,8 @@ main p {
         
     }
 
-    .marketing-pic {
+    .marketing-pic,
+    .html-pic {
         margin-top: 0;
     }
     
@@ -260,7 +263,8 @@ main p {
         padding-bottom: 2.5rem;
     }
 
-    .portfolio {
+    .portfolio,
+    .skills-h2 {
         margin-bottom: 3rem;
     }
         
@@ -308,7 +312,8 @@ main p {
         flex: 0 32%;
     }
 
-    .portfolio {
+    .portfolio,
+    .skills-h2 {
         padding-top: 4rem;
     }
 
